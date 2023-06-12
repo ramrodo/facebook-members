@@ -40,7 +40,7 @@ func main() {
 
 	for _, v := range membersMap {
 		if v.Counter >= 5 {
-			fmt.Println(v.Member.Fullname, v.Member.ProfileLink)
+			fmt.Printf("%s,%s\n", v.Member.Fullname, v.Member.ProfileLink)
 		}
 	}
 }
